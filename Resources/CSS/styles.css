@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    background-color: #faf7eb;
+    font-family: ovo, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #0073ff;
+    cursor: pointer;
+  }
+
+nav a {
+    color:#ffffff;
+    background-color: #D97762;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+nav li {
+    display: inline;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: #d9786280;
+}
+section {
+    padding: 20px;
+    margin:100px auto;
+    max-width: 800px;
+    border-radius: 25px;
+    border: solid 10px #F2A950;
+}
+
+h1, h2 {
+    color: #154D59;
+    font-family: quattrocentosans-bold, ovo, 'times new roman';
+}
+
+h3 {
+    font-family: quattrocentosans-italic, ovo, 'times new roman';
+    color: #123B40;
+}
+
+header img {
+    border-radius: 100px;
+    height: 125px;
+    
+}
+
+.about {
+    background-color: #F2B950;
+    line-height: 1.4;
+}
+
+.about ul {
+    list-style-position: inside;
+}
+.prices {
+    background-color: #8DE0F2;
+}
+
+.sessions {
+    background-color: #F2B950;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    padding: 25px;
+    border-radius: 25px;
+    color: #000000d8;
+    line-height: 2;
+    column-gap: 5px;
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.container-2 {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.school-day {
+    width: 250px;
+}
+
+.after-school {
+    width: 250px;
+}
+
+.sessions a {
+    background-color: #D97762;
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.sessions a:hover {
+    background-color: #d9786280;
+}
+.curriculum {
+    background-color: #8DE0F2;
+    line-height: 1.4;
+}
+
+.curriculum img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contact {
+    background-color: #F2B950;
+    padding: 20px;
+    line-height: 1.4;
+}
+
